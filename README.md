@@ -27,7 +27,7 @@
 
 * Flask
 
-* bs4 <br/>
+* boto3 <br/>
 
 * requests <br/>
 
