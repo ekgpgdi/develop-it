@@ -61,7 +61,7 @@
 
 <p align="center">
 
-<img width="400px" alt="스크린샷 2022-05-12 오후 8 01 23" src="https://user-images.githubusercontent.com/84092014/168059038-2f2edfe7-bc5c-43ea-9b95-4e65258dcd39.png">
+ <img width="786" alt="스크린샷 2022-08-22 오후 5 07 26" src="https://user-images.githubusercontent.com/84092014/185902896-eb7667e8-1835-4d86-a441-e09a7aff12af.png">
 
   </p>
 
@@ -69,6 +69,6 @@
 
 ## 5. 핵심 기능
 
- 
+
 
 ## 6. 핵심 트러블 슈팅 
