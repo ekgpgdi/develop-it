@@ -69,6 +69,15 @@
  <br/>
 
 ## 5. 핵심 기능
-
+![image (2)](https://user-images.githubusercontent.com/84092014/186078329-650da812-69b0-4d6c-a674-0b4c00d52044.png)
+<br/>
 
 ## 6. 핵심 트러블 슈팅 
+1. EC2 AMI ubuntu 버전 차이로 인한 python 버전 불일치 문제 
+> EC2 AMI의 ubuntu 버전을 18.04 LTS 로 지정하여 python version 이 3.6으로 설치가 되었고 그로 인해 프로젝트 python 3.8 버전과 일치하지 않아 requirements.txt에 작성한 패키지 버전을 가져오지 못하는 문제가 발생
+> 처음에는 pip 로  python 3.6에서 사용 가능한 패키지 버전들로 다운그레이드하여 설치함으로써 불필요한 작업이 발생
+> 이후 ubuntu 버전 차이라는 것을 인지하고 ubuntu 버전을 20.04 LTS 로 변경하여 해결
+
+2. 추가 작업 없는 배포를 고민 
+> Local 환경에서 작업하던 프로젝트를 어떻게 추가 작업없이 CI/CD 의 장점을 이용하여 EC2에 배포할 수 있을까 라는 고민을 시작
+> 환경 변수 분리를 위해 Prod 환경과 Local 환경의 환경 변수들을 config 파일로 분리
