@@ -74,7 +74,7 @@
 
 ## 6. 핵심 트러블 슈팅 
 1. EC2 AMI ubuntu 버전 차이로 인한 python 버전 불일치 문제 
-> EC2 AMI의 ubuntu 버전을 18.04 LTS 로 지정하여 python version 이 3.6으로 설치가 되었고 그로 인해 프로젝트 python 3.8 버전과 일치하지 않아 requirements.txt에 작성한 패키지 버전을 가져오지 못하는 문제가 발생
+> EC2 AMI의 ubuntu 버전을 18.04 LTS 로 지정하여 python version 이 3.6으로 설치가 되었고 그로 인해 프로젝트 python 3.8 버전과 일치하지 않아 requirements.txt에 작성한 패키지 버전들과 호환 오류 발생
 > 처음에는 pip 로  python 3.6에서 사용 가능한 패키지 버전들로 다운그레이드하여 설치함으로써 불필요한 작업이 발생
 > 이후 ubuntu 버전 차이라는 것을 인지하고 ubuntu 버전을 20.04 LTS 로 변경하여 해결
 
