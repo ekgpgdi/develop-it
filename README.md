@@ -49,9 +49,10 @@
 <br/>
 
 
-## 3. ERD 설계
+## 3. Data Model Design - Embedded Data Models
 
-![image](https://user-images.githubusercontent.com/88760828/183609679-cecbe17c-d06c-4cc3-92a4-f77ee0e69a5f.png)
+![스크린샷 2022-08-23 오전 11 39 35](https://user-images.githubusercontent.com/84092014/186057233-0f5aa9be-05c3-4e91-b7d1-1aa476b2a02f.png)
+![스크린샷 2022-08-23 오전 11 39 46](https://user-images.githubusercontent.com/84092014/186057253-6872906e-ce64-415d-b7f4-75ddd35b8501.png)
 
  
 <br/>
@@ -68,7 +69,6 @@
  <br/>
 
 ## 5. 핵심 기능
-
 
 
 ## 6. 핵심 트러블 슈팅 
